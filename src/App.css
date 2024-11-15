@@ -1,0 +1,80 @@
+#root {
+  max-width: 1280px;
+  text-align: center;
+}
+
+.card {
+  padding: 2em;
+}
+.p-area{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: #fdc269;
+  padding: 20px;
+  border: 1px solid #fdc269;
+  border-radius: 20px;
+
+}
+.Active{
+  position: absolute;
+  top: 50px;
+  left: 600px;
+  transition: .4s;
+  
+}
+.desActive{
+  position: absolute;
+  top: -100%;
+  left: 600px;
+  transition: .4s;
+}
+.plusBtn,.minusBtn{
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.desplusBtn,.desminusBtn{
+  position: absolute;
+  top: -100%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.PopUp {
+  width: 350px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  border: 1px solid #fdc26989;
+  background-color:#fdc269;
+  
+  box-shadow: 0 5px 0px 0px #fdc2697a;
+  border-radius: 20px;
+
+}
+
+h3 {
+  font-size: 24px;
+  color: rgba(0, 0, 0, 0.711);
+}
+.bg1{
+  background-color: #384F6C;
+  width: 100vw;
+  height: 100vh;
+
+}
+.bg2{
+  background-color: #0F132A;
+  width: 100vw;
+  height: 100vh;
+}
+.bg1,.bg2{
+  button{
+    background-color: #fdc269;
+    color: rgba(0, 0, 0, 0.711);
+  }
+}
